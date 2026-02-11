@@ -5,9 +5,6 @@ from selenium.webdriver.common.by import By
 class OrderPageLocators:
     """Локаторы элементов страницы заказа"""
     
-    # URL
-    ORDER_URL = "https://qa-scooter.praktikum-services.ru/order"
-    
     # Шаг 1 - Кто самокат
     NAME_INPUT = (By.XPATH, "//input[@placeholder='* Имя']")
     SURNAME_INPUT = (By.XPATH, "//input[@placeholder='* Фамилия']")

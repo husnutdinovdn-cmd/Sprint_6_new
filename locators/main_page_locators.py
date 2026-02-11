@@ -5,8 +5,8 @@ from selenium.webdriver.common.by import By
 class MainPageLocators:
     """Локаторы элементов главной страницы"""
     
-    # URL
-    BASE_URL = "https://qa-scooter.praktikum-services.ru/"
+    # Основные элементы страницы
+    HOME_PAGE_CONTAINER = (By.XPATH, "//div[contains(@class, 'Home_HomePage')]")
     
     # Кнопки заказа
     ORDER_BUTTON_HEADER = (By.XPATH, "//div[contains(@class, 'Header_Nav')]//button[text()='Заказать']")
